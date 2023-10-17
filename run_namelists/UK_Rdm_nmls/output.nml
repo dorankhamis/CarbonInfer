@@ -1,0 +1,37 @@
+&jules_output
+    dump_period = 1
+    dump_period_unit = 'Y'
+    nprofiles = 1
+    output_dir = '/home/users/doran/projects/carbon_prediction/output//UK_Rdm/'
+    run_id = 'jrun_UK_Rdm'
+/
+
+&jules_output_profile(1)
+    file_period = -2
+    l_land_frac = .false.
+    nvars = 20
+    output_main_run = .true.
+    output_period = 86400
+    output_spinup = .false.
+    output_type = 'N', "19*'M'"
+    profile_name = 'D'
+    var = 't1p5m_gb', 'gpp_gb', 'resp_p_gb', 'resp_s_gb', 'ftl_gb', 'latent_heat',
+          'rad_net', 'sw_down', 'precip', 't1p5m_gb', 'q1p5m_gb', 'canht',
+          'lai', 'fsmc_gb', 'smc_avail_top', 'fqw_gb', 'et_stom_gb', 'sthu',
+          'sthf', 'npp_gb'
+    var_name = 'min_t1p5m_gb', ''
+/
+
+&jules_output_profile(2)
+    file_period = 0
+    l_land_frac = .false.
+    nvars = 10
+    output_main_run = .true.
+    output_period = 3600
+    output_spinup = .false.
+    output_type = 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'
+    profile_name = 'H'
+    var = 'gpp_gb', 'resp_p_gb', 'resp_s_gb', 'ftl_gb', 'latent_heat', 'rad_net',
+          'sw_down', 'precip', 't1p5m_gb', 'q1p5m_gb'
+    var_name = '', '', '', '', '', '', '', '', '', ''
+/

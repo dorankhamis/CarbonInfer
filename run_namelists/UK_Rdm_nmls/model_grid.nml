@@ -1,0 +1,32 @@
+&jules_input_grid
+    grid_is_1d = .true.
+    npoints = 1
+    time_dim_name = 'time'
+    type_dim_name = 'pseudo'
+/
+
+&jules_latlon
+    const_val = 52.4429, 0.4195
+    l_coord_latlon = .true.
+    nvars = 2
+    read_from_dump = .false.
+    use_file = .false., .false.
+    var = 'latitude', 'longitude'
+/
+
+&jules_land_frac
+/
+
+&jules_model_grid
+    force_1d_grid = .false.
+    land_only = .true.
+    use_subgrid = .false.
+/
+
+&jules_nlsizes
+    bl_levels = 1
+/
+
+&jules_surf_hgt
+    zero_height = .true.
+/

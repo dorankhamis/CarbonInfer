@@ -1,0 +1,53 @@
+&jules_frac
+!!file='/gws/nopw/j04/hydro_jules/data/uk/ancillaries/chess-scape/chess-scape_uk_1km_landcover2000_U2T_prelim.nc',
+!!frac_name='frac',
+file='see conf',
+read_from_dump=.false.,
+/
+&jules_soil_props
+const_val=8*-99.9,0.15,-99.9,
+const_z=.false.,
+!!file='/gws/nopw/j04/hydro_jules/data/uk/ancillaries/chess-scape/chess-scape_uk_1km_soil%vv.nc',
+!!tpl_name=9*'params_hwsd_vg','texture_1scl_hwsd',
+file='see conf',
+nvars=10,
+use_file=8*.true.,.false.,.true.,
+var='b','sathh','satcon','sm_sat','sm_crit','sm_wilt','hcap',
+'hcon','albsoil','clay',
+var_name='oneovernminusone','oneoveralpha','satcon','vsat','vcrit',
+'vwilt','hcap','hcon','albsoil','clay',
+/
+!!&jules_top
+!!const_val=1.0,8.066711,2.067616,
+!!file='see conf',
+!!nvars=3,
+!!read_from_dump=.false.,
+!!use_file=.false.,.true.,.true.,
+!!var='see conf','see conf','see conf',
+!!var_name='','','',
+!!/
+&jules_pdm
+!!file='/gws/nopw/j04/hydro_jules/data/uk/ancillaries/chess-scape/chess-scape_uk_1km_topography.nc',
+file='see conf',
+nvars=1,
+use_file=.true.,
+var='slope',
+var_name='slope',
+/
+&jules_agric
+read_from_dump=.false.,
+zero_agric=.true.,
+zero_past=.true.,
+/
+&urban_properties
+const_val=4.48226,0.04415828,0.964,0.08,0.375,0.95,0.875,
+!!file='/gws/nopw/j04/hydro_jules/data/uk/ancillaries/chess-scape/chess-scape_uk_1km_morphology_U2T_prelim.nc',
+nvars=7,
+use_file=.false.,.false.,.false.,.false.,.false.,.false.,.false.,
+var='hgt','hwr','wrr','albrd','albwl','emisr','emisw',
+/
+&jules_co2
+!!co2_mmr=5.94100e-4,
+co2_mmr=6.3342e-4,
+read_from_dump=.false.,
+/

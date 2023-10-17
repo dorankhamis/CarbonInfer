@@ -1,0 +1,17 @@
+&jules_prescribed
+    n_datasets = 1
+/
+
+&jules_prescribed_dataset
+    file = '/home/users/doran/projects/carbon_prediction/NOAA_co2mmr_1980_2023byhand.txt'
+    data_end = '2024-01-01 00:00:00'
+    data_start = '1980-01-01 00:00:00'
+    interp = 'nf'
+    data_period = -2
+    is_climatology = .false.
+    nvars = 1
+    read_list = .false.
+    tpl_name = ''
+    var = 'co2_mmr'
+    var_name = 'co2_mmr'
+/

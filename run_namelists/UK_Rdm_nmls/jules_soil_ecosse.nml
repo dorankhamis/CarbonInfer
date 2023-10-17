@@ -1,0 +1,18 @@
+&jules_soil_ecosse
+    decomp_ph_max = 0
+    decomp_ph_min = 0
+    decomp_ph_rate_min = 0
+    decomp_rate = 0
+    decomp_temp_coeff_smith = 0
+    decomp_wrate_min_clark = 0
+    decomp_wrate_min_smith = 0
+    dt_soilc = 0
+    l_driver_ave = .true.
+    l_match_layers = .true.
+    l_soil_n = .false.
+    pi_sfc_depth = 0
+    pi_sfc_frac = 0
+    plant_input_profile = 1
+    temp_modifier = 1
+    water_modifier = 1
+/

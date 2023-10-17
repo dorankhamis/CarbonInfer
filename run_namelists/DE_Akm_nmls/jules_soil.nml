@@ -1,0 +1,15 @@
+&jules_soil
+    confrac = 1.0
+    cs_min = 1e-06
+    dzsoil_io = 0.1, 0.25, 0.65, 2.0
+    l_bedrock = .false.
+    l_dpsids_dsdz = .false.
+    l_holdwater = .false.
+    l_soil_sat_down = .false.
+    l_tile_soil = .false.
+    l_vg_soil = .true.
+    sm_levels = 4
+    soilhc_method = 2
+    zsmc = 1.0
+    zst = 1.0
+/

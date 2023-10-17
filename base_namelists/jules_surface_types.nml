@@ -1,0 +1,13 @@
+&jules_surface_types
+npft=5,
+nnvg=4,
+brd_leaf_dec=1,
+ndl_leaf_eg=2,
+c3_grass=3,
+shrub_dec=4,
+c3_crop=5,
+lake=6,
+soil=7,
+urban_canyon=8,
+urban_roof=9,
+/

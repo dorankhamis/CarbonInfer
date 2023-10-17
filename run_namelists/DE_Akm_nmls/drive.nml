@@ -1,0 +1,21 @@
+&jules_drive
+    bl_height = 1000.0
+    data_end = '2014-12-31 22:30:00'
+    data_period = 1800
+    data_start = '2008-12-31 23:00:00'
+    diff_frac_const = 0.4
+    file = '/gws/nopw/j04/ceh_generic/netzero/fluxdata/jules//fluxnet//DE_Akm-met.dat'
+    interp = 'nf', 'nf', 'nf', 'nf', 'nf', 'nf', 'nf'
+    l_daily_disagg = .false.
+    l_perturb_driving = .false.
+    nvars = 7
+    read_list = .false.
+    t_for_con_rain = 288.15
+    t_for_snow = 275.15
+    tpl_name = '', '', '', '', '', '', ''
+    var = 't', 'sw_down', 'lw_down', 'q', 'pstar', 'precip', 'wind'
+    var_name = '', '', '', '', '', '', ''
+    z1_tq_in = 1.2
+    z1_tq_vary = .false.
+    z1_uv_in = 10.0
+/

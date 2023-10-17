@@ -1,0 +1,11 @@
+&jules_initial
+const_val=0.9,0.0,0.0,50.0,275.0,278.0,10.0,0.0,1.0,2.0,0.5,3.0,
+dump_file=.false.,
+!!file='/gws/nopw/j04/hydro_jules/data/uk/ancillaries/chess-scape/chess-scape_uk_1km_soilcarbon_hwsd_vg.nc',
+file='see conf',
+nvars=12,
+total_snow=.true.,
+use_file=6*.false.,.true.,5*.false.,
+var='sthuf','canopy','snow_tile','rgrain','tstar_tile','t_soil','cs','gs','lai','canht','sthzw','zw',
+var_name='sthuf','canopy','snow_tile','rgrain','tstar_tile','t_soil','cs','gs','lai','canht','sthzw','zw',
+/

@@ -1,0 +1,22 @@
+&jules_output
+    dump_period = 1
+    dump_period_unit = 'Y'
+    nprofiles = 1
+    output_dir = '/home/users/doran/projects/carbon_prediction/output//DE_Akm/'
+    run_id = 'jrun_DE_Akm'
+/
+
+&jules_output_profile
+    l_land_frac = .false.
+    nvars = 12
+    file_period = 0
+    output_main_run = .true.
+    output_period = 86400
+    output_spinup = .false.
+    output_type = 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M',
+                  'M'
+    profile_name = 'Daily_gb'
+    var = 'tstar_gb', 't_soil', 'smcl', 'canopy', 'cs_gb', 'cs', 'npp_gb',
+          'gpp_gb', 'resp_s_gb', 'resp_p_gb', 'lai', 'canht'
+    var_name = '', '', '', '', '', '', '', '', '', '', '', ''
+/

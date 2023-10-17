@@ -1,0 +1,29 @@
+&jules_snow
+    a_snow_et = 2.8e-06
+    aicemax = 0.78, 0.36
+    b_snow_et = 0.042
+    c_snow_et = 0.046
+    cansnowpft = .false., .false., .false., .true., .true., .false., .false.,
+                 .false., .false.
+    dzsnow = 0.04, 0.12, 0.34
+    frac_snow_subl_melt = 0
+    graupel_options = 0
+    i_basal_melting_opt = 0
+    i_grain_growth_opt = 0
+    i_relayer_opt = 0
+    i_snow_cond_parm = 1
+    l_et_metamorph = .true.
+    l_snow_infilt = .false.
+    l_snow_nocan_hc = .true.
+    l_snowdep_surf = .true.
+    lai_alb_lim_sn = 1.0, 1.0, 1.0, 1.0, 1.0, 0.1, 0.1, 0.1, 0.1
+    maskd = 50.0
+    nsmax = 3
+    rho_firn_albedo = 550.0
+    rho_snow_const = 250.0
+    rho_snow_et_crit = 150.0
+    snow_hcap = 630000.0
+    snow_hcon = 0.1495
+    unload_rate_cnst = 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+    unload_rate_u = 0.0, 0.0, 0.0, 0.0, 0.0, 2.31e-06, 2.31e-06, 0.0, 0.0
+/

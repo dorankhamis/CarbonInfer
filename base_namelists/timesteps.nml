@@ -1,0 +1,19 @@
+&jules_time,
+l_360=see conf,
+l_leap=see conf,
+l_local_solar_time=.false.,
+main_run_end='$RUNENDDATE 00:00:00',
+main_run_start='$RUNBEGDATE 00:00:00',
+print_step=48,
+timestep_len=drive_timestep,
+/
+&jules_spinup
+max_spinup_cycles=4,
+nvars=2,
+spinup_end='$SPINENDDATE 00:00:00',
+spinup_start='$SPINBEGDATE 00:00:00',
+terminate_on_spinup_fail=.false.,
+tolerance=-1.0,-0.1,
+use_percent=.false.,.false.,
+var='smcl','t_soil',
+/

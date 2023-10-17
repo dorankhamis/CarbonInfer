@@ -1,0 +1,37 @@
+&jules_vegetation
+    can_model = 4
+    can_rad_mod = 6
+    frac_min = 1e-06
+    frac_seed = 0.01
+    fsmc_shape = 0
+    ilayers = 10
+    l_bvoc_emis = .false.
+    l_croprotate = .false.
+    l_gleaf_fix = .true.
+    l_ht_compete = .false.
+    l_inferno = .false.
+    l_landuse = .false.
+    l_leaf_n_resp_fix = .true.
+    l_limit_canhc = .false.
+    l_nitrogen = .false.
+    l_o3_damage = .false.
+    l_phenol = .true.
+    l_scale_resp_pm = .false.
+    l_spec_veg_z0 = .false.
+    l_stem_resp_fix = .true.
+    l_trait_phys = .true.
+    l_trif_crop = .false.
+    l_trif_eq = .false.
+    l_trif_fire = .false.
+    l_triffid = .true.
+    l_use_pft_psi = .false.
+    l_veg_compete = .false.
+    l_vegcan_soilfx = .true.
+    l_vegdrag_pft = .false., .false., .false., .false., .false., .false.,
+                    .false., .false., .false.
+    phenol_period = 1
+    photo_model = 1
+    pow = 20.0
+    stomata_model = 1
+    triffid_period = 1
+/

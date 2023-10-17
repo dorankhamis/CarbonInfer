@@ -1,0 +1,10 @@
+&jules_hydrology
+    l_limit_gsoil = .false.
+    l_pdm = .false.
+    l_top = .true.
+    l_wetland_unfrozen = .false.
+    nfita = 30
+    ti_max = 10.0
+    ti_wetl = 1.5
+    zw_max = 6.0
+/

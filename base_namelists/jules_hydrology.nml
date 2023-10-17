@@ -1,0 +1,15 @@
+&jules_hydrology
+b_pdm=2.0,
+dz_pdm=1.0,
+l_hydrology=.true.,
+l_limit_gsoil=.false.,
+l_pdm=.true.,
+l_spdmvar=.true.,
+l_top=.false.,
+l_var_rainfrac=.false.,
+slope_pdm_max=6.0,
+zw_max=6.0,
+ti_max=10.0,
+ti_wetl=1.5,
+nfita=20,
+/

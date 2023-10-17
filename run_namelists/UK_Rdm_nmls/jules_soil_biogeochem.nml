@@ -1,0 +1,25 @@
+&jules_soil_biogeochem
+    bio_hum_cn = 10.0
+    ch4_cpow = 1.0
+    ch4_substrate = 1
+    const_ch4_cs = 7.41e-12
+    const_ch4_npp = 0.00999
+    const_ch4_resps = 0.00436
+    kaps = 5e-09
+    kaps_4pool = 3.22e-07, 9.65e-09, 2.12e-08, 6.43e-10
+    l_ch4_interactive = .false.
+    l_ch4_microbe = .false.
+    l_ch4_tlayered = .false.
+    l_layeredc = .false.
+    l_q10 = .true.
+    l_soil_resp_lev2 = .true.
+    n_inorg_turnover = 1.0
+    q10_ch4_cs = 3.7
+    q10_ch4_npp = 1.5
+    q10_ch4_resps = 1.5
+    q10_soil = 2.0
+    soil_bgc_model = 2
+    sorp = 10.0
+    t0_ch4 = 273.15
+    tau_lit = 5.0
+/

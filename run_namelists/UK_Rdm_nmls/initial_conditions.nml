@@ -1,0 +1,10 @@
+&jules_initial
+    const_val = ''
+    dump_file = .true.
+    file = 'initial_conditions_spin.dat'
+    nvars = 12
+    total_snow = .true.
+    use_file = ''
+    var = ''
+    var_name = ''
+/

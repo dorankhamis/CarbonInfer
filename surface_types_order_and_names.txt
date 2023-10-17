@@ -1,0 +1,17 @@
+BDT        Broadleaf deciduous tree
+
+NET        Needleleaf evergreen tree
+
+C3G        C3 grass
+
+DSh        Deciduous shrub
+
+C3Cr       C3 Crop
+
+IW          Inland water
+
+BS           Bare soil
+
+UrC        Urban canyon
+
+UrR        Urban roof

@@ -1,0 +1,17 @@
+&jules_prescribed
+    n_datasets = 1
+/
+
+&jules_prescribed_dataset(1)
+    data_end = '2024-01-01 00:00:00'
+    data_period = -2
+    data_start = '1980-01-01 00:00:00'
+    file = 'NOAA_co2mmr_1980_2023byhand.txt'
+    interp = 'nf'
+    is_climatology = .false.
+    nvars = 1
+    read_list = .false.
+    tpl_name = ''
+    var = 'co2_mmr'
+    var_name = 'co2_mmr'
+/

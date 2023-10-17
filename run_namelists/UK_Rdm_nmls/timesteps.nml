@@ -1,0 +1,20 @@
+&jules_time
+    l_360 = .false.
+    l_leap = .true.
+    l_local_solar_time = .false.
+    main_run_end = '2023-03-23 00:00:00'
+    main_run_start = '2021-08-05 00:00:00'
+    print_step = 48
+    timestep_len = 1800
+/
+
+&jules_spinup
+    max_spinup_cycles = 0
+    nvars = 1
+    spinup_end = '2023-03-23 00:00:00'
+    spinup_start = '2021-08-05 00:00:00'
+    terminate_on_spinup_fail = .false.
+    tolerance = -3.0
+    use_percent = .true.
+    var = 'smcl'
+/

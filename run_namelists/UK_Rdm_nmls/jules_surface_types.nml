@@ -1,0 +1,17 @@
+&jules_surface_types
+    brd_leaf_dec = 1
+    brd_leaf_eg_temp = 3
+    brd_leaf_eg_trop = 2
+    c3_grass = 6
+    c4_grass = 7
+    ice = 13
+    lake = 11
+    ndl_leaf_dec = 4
+    ndl_leaf_eg = 5
+    nnvg = 4
+    npft = 9
+    shrub_dec = 8
+    shrub_eg = 9
+    soil = 12
+    urban = 10
+/
