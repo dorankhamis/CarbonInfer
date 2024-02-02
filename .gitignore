@@ -1,3 +1,7 @@
+# chain runs
+run_namelists/**
+output/**
+
 # lotus batch files
 *.err
 *.out
@@ -12,6 +16,7 @@
 # binary
 *.npy
 *.pkl
+*.parquet
 
 # NN weights/checkpoints
 *.pth
@@ -19,6 +24,7 @@
 # output / data
 *.csv
 *.nc
+*.nml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
