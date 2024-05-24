@@ -1,0 +1,74 @@
+# from file /gws/nopw/j04/hydro_jules/data/uk/ancillaries/co2/co2_annmean_comb_chess_1959_2022.nc
+#{'title': 'CO2 concentrations',
+# 'date_created': '2023-07-31',
+# 'creator_name': 'Emma L. Robinson',
+# 'creator_email': 'emrobi@ceh.ac.uk',
+# 'note': 'See www.esrl.noaa.gov/gmd/ccgg/trends/ for additional details',
+# 'description': 'Global average CO2 concetrations expressed as mass-mixing ratio, extracted from NOAA ESRL dataThe data for 1959-1978 is from Mauna Loa, the data for 1979-2022 is the global estimate.',
+# 'history': 'Mon Jul 31 11:55:23 2023: ncatted -a description,global,a,c,The data for 1959-1978 is from Mauna Loa, the data for 1979-2022 is the global estimate. output/co2_annmean_comb_chess_1959_2022.nc -a note,co2_mmr,o,c,The data for 1959-1978 is from Mauna Loa, the data for 1979-2022 is the global estimate. -a note,co2_mmr_unc,o,c,The data for 1959-1978 is from Mauna Loa, the data for 1979-2022 is the global estimate.',
+# 'NCO': 'netCDF Operators version 4.8.1 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco)'}
+# first line is 1959, last line is 2022
+0.00047991
+0.00048133
+0.00048244
+0.00048367
+0.00048449
+0.00048544
+0.00048608
+0.0004881
+0.00048933
+0.00049065
+0.00049304
+0.00049465
+0.00049562
+0.00049735
+0.00050072
+0.0005015
+0.00050292
+0.00050429
+0.00050704
+0.00050942
+0.00051161
+0.00051474
+0.00051656
+0.00051769
+0.00052024
+0.00052258
+0.00052481
+0.00052698
+0.00052958
+0.00053335
+0.00053581
+0.00053774
+0.00053977
+0.00054083
+0.00054197
+0.00054424
+0.00054705
+0.0005497
+0.0005514
+0.00055543
+0.00055862
+0.0005604
+0.00056283
+0.00056589
+0.00056978
+0.00057252
+0.00057558
+0.00057888
+0.00058155
+0.00058477
+0.00058702
+0.00059045
+0.00059329
+0.00059636
+0.00060052
+0.00060348
+0.00060699
+0.0006122
+0.00061545
+0.00061908
+0.00062282
+0.00062642
+0.00062987
+0.00063342

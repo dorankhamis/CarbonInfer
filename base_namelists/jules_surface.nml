@@ -15,6 +15,7 @@ l_elev_lw_down=.false.,
 l_epot_corr=.true.,
 l_flake_model=.false.,
 l_land_ice_imp=.false.,
-l_point_data=.true.,
+!l_point_data=.true.,
+l_point_data=.false.,
 l_urban2t=.true.,
 /

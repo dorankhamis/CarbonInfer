@@ -28,9 +28,6 @@ chess_ancil_dir = '/gws/nopw/j04/hydro_jules/data/uk/ancillaries/'
 #DATA_DIR = '/gws/nopw/j04/ceh_generic/netzero/fluxdata/fluxnet_sites/'
 DATA_DIR = '/gws/nopw/j04/ceh_generic/netzero/fluxdata/'
 #FN_DRIVE = DATA_DIR + '/fluxnet/'
-#LBA_DRIVE = DATA_DIR + '/lba_drive/'
-#NEO_DRIVE = DATA_DIR + '/neo_drive/'
-#UK_DRIVE = DATA_DIR + '/uk_drive/'
 
 # other environmental variables to set from site info files
 #site_info = pd.read_table(RSUITE_flux + '/var/info_table.tsv', sep=" ")
@@ -40,7 +37,8 @@ site_list = list(site_info.index)
 
 # move the Bioenergy landcovers LincsSRCWillow / LincsMiscanthus to BDT/C3Cr respectively
 site_info.loc['LincsMiscanthus','landcover_simp'] = 'Agriculture'
-site_info.loc['LincsSRCWillow','landcover_simp'] = 'Broadleaf tree'
+site_info.loc['LincsSRCWillow','landcover_simp'] = 'Shrubland' #'Broadleaf tree'
+# as this variety of willow is designated as a shrub rather than a tree
  
 env_vars = {
     "$OUTDIR":'',
@@ -64,6 +62,8 @@ C_kg_p_mmco2 = 1e-3 * co2_gpmm * f_C # kilograms of C per micromole of CO2
 
 # set JULES parameters to optimised during data assimilation
 # we are using only PFT params so all will be inside the opt_namelist_struct
+''' We should also be adjusting soil respiration parameters?!
+Though we are not dialing in the specific soil texture/carbon content from the site... '''
 opt_namelist_struct = ['pft_params', 'jules_pftparm'] #{'pft_params':{'jules_pftparm':''}}
 default_params = {
     'a_wl_io': [0.78, 0.8, 0.005, 0.13, 0.005], # Allometric coefficient relating the target woody biomass to the leaf area index (kg carbon m-2)

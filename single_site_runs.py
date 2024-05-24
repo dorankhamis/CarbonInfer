@@ -60,7 +60,7 @@ if __name__=="__main__":
         parser.add_argument("niters", help = "number of iterations to run")
         parser.add_argument("ncpu", help = "number of cpu cores to call on")
         parser.add_argument("site_num", help = "number of site to run")
-        parser.add_argument("continue_chains", help = "1: True, 0: Start new chains")
+        parser.add_argument("continue_chains", help = "1: True, 0: Start new chains")        
         
         args = parser.parse_args()
         
@@ -69,6 +69,7 @@ if __name__=="__main__":
         ncpu = int(args.ncpu)
         site_num = int(args.site_num)
         continue_chains = bool(int(args.continue_chains))
+        
     except:
         print('Not running as script, using default params')              
         ## define run vars

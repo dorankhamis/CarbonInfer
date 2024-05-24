@@ -1,7 +1,0 @@
-&test
-    test2 = .true.
-    list = "'nh'", "'jl'"
-    txt = '10.5,8.5,4.3'
-    list2 = 10.5, 8.5, 4.3
-    list_txt = 'nh', 'jl'
-/
